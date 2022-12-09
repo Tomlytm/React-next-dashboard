@@ -78,7 +78,7 @@ export default function Contents() {
             </div>
             <br />
             <div className={styles.contentcontainer2}>
-                <div class="ui icon input">
+                <div className="ui icon input">
                     <i aria-hidden="true" className="search icon"></i>
                     <input type="text" placeholder="Search for trades" />
                 </div>

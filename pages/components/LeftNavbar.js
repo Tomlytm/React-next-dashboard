@@ -21,11 +21,11 @@ export default function LeftNavbar() {
 						<a href="#"></a>
 					</li>
 					<li>
-					<Img alt="pic" width={20} height={20} className={styles.iconx} src='/navicons/icon.png'/>
+					<Img alt="pic" width={20} height={20} className={styles.iconx} src='/navicons/chart.png'/>
 						<a href="#"></a>
 					</li>
 					<li>
-					<Img alt="pic" width={20} height={20} className={styles.iconx} src='/navicons/icon(1).png'/>
+					<Img alt="pic" width={20} height={20} className={styles.iconx} src='/navicons/boxes.png'/>
 						<a href="#"></a>
 					</li>
 					<li>
@@ -33,12 +33,12 @@ export default function LeftNavbar() {
 						<a href="#"></a>
 					</li>
 					<li>
-					<Img alt="pic" width={20} height={20} className={styles.iconx} src='/navicons/icon(2).png'/>
+					<Img alt="pic" width={20} height={20} className={styles.iconx} src='/navicons/flag.png'/>
 						<a href="#"></a>
 					</li>
 					
 					<li className={styles.iconx}>
-					<Img alt="pic" width={20} height={20} className={styles.iconx} src='/navicons/icon(3).png'/>
+					<Img alt="pic" width={20} height={20} className={styles.iconx} src='/navicons/userx.png'/>
 						<a href="#"></a>
 					</li>
 					

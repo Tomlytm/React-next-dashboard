@@ -58,7 +58,7 @@ export default class Details extends Component {
                                             </div>
                                         </div>
                                         <div className="mb-3">
-                                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                            <label for="exampleFormControlInput1" className="form-label">Email</label>
                                             <input value="Tomilayojesse@gmail.com" type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
                                         </div>
                                         <br />
@@ -105,7 +105,7 @@ export default class Details extends Component {
                                             <label for="basic-url" className="form-label">Username</label>
                                             <div className="input-group mb-3">
                                                 <span className="input-group-text" id="basic-addon3">untitledui.com/</span>
-                                                <input value="Tomilayo" type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" />
+                                                <input value="Tomilayo" type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3" />
                                             </div>
                                         </div>
                                         <div className='row mb-3'>
@@ -117,13 +117,13 @@ export default class Details extends Component {
                                             </div>
                                         </div>
                                         <div className="mb-3">
-                                            <label for="exampleFormControlTextarea1" class="form-label">Bio</label>
+                                            <label for="exampleFormControlTextarea1" className="form-label">Bio</label>
                                             <textarea value="i'm a Product Designer based in Nigeria, Lagos. I specialise in web development and brand strategy" className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                             <p style={{ colors: "grey" }}>275 characters left</p>
                                         </div>
 
                                         <div className="mb-3">
-                                            <label for="exampleFormControlTextarea1" class="form-label">Country</label>
+                                            <label for="exampleFormControlTextarea1" className="form-label">Country</label>
                                             <br />
                                             <CountryDropdown
                                                 value="Nigeria"
