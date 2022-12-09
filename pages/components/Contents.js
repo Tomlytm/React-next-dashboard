@@ -3,7 +3,7 @@ import styles from "../../styles/Home.module.css";
 import 'bootstrap/dist/css/bootstrap.css'
 import 'semantic-ui-css/semantic.min.css'
 import Header from '../components/Header'
-import DatePicker from "react-datepicker";
+import Img from 'next/image'
 import "react-datepicker/dist/react-datepicker.css";
 
 import { List, Image, Statistic } from 'semantic-ui-react'
@@ -21,7 +21,7 @@ export default function Contents() {
 
                                 <Statistic>
                                     <Statistic.Value className={styles.statistic}>2,420</Statistic.Value>
-                                    <img className={styles.line1} src='Line(1).png'></img>
+                                    <Img alt="pic" width={100} height={50} className={styles.line1} src='/Line(1).png' />
                                 </Statistic>
                                 <div className={styles.stats}>
                                     <p>40%</p>
@@ -39,7 +39,7 @@ export default function Contents() {
                                 <h5 className="card-title">Members</h5>
                                 <Statistic>
                                     <Statistic.Value className={styles.statistic}>1,210</Statistic.Value>
-                                    <img className={styles.line1} src='Line(2).png'></img>
+                                    <Img alt="pic" width={50} height={50} className={styles.line1} src='/Line(2).png'/>
                                 </Statistic>
                                 <div className={styles.stats}>
                                     <p style={{color:"#F04438"}}>10%</p>
@@ -59,7 +59,7 @@ export default function Contents() {
                                 <h5 className="card-title">Active now</h5>
                                 <Statistic>
                                     <Statistic.Value className={styles.statistic}>312</Statistic.Value>
-                                    <img className={styles.line1} src='Line(1).png'></img>
+                                    <Img alt="pic" width={100} height={50} className={styles.line1} src='/Line(1).png'/>
                                 </Statistic>
                                 <div className={styles.stats}>
                                     <p>20%</p>
@@ -84,7 +84,7 @@ export default function Contents() {
                 </div>
                 <div>
                     <div className={styles.calender}>
-                    <button className={styles.range}> <span><img style={{width: "15px", marginTop: "-4px"}} src="navicons/calender.png"></img> Jan 6, 2022 - Jan 13, 2022</span> </button>
+                    <button className={styles.range}> <span><Img alt="pic" width={20} height={15} style={{width: "15px", marginTop: "-4px"}} src="/navicons/calender.png"/> Jan 6, 2022 - Jan 13, 2022</span> </button>
                     </div>
                     <div></div>
                 </div>
@@ -115,7 +115,7 @@ export default function Contents() {
                                     <td className={styles.hide}>
                                         <List>
                                             <List.Item>
-                                                <Image avatar src='Avatar(2).png' />
+                                                <Image alt="pic" avatar src='Avatar(2).png' />
                                                 <List.Content>
                                                     <List.Header >Olivia Rhye</List.Header>
                                                     <List.Description>
@@ -137,7 +137,7 @@ export default function Contents() {
                                     <td className={styles.hide}>
                                         <List>
                                             <List.Item>
-                                                <Image avatar src='Avatar(1).png' />
+                                                <Image alt="pic" avatar src='Avatar(1).png' />
                                                 <List.Content>
                                                     <List.Header>Phoenix Baker</List.Header>
                                                     <List.Description>
@@ -159,7 +159,7 @@ export default function Contents() {
                                     <td className={styles.hide}>
                                         <List>
                                             <List.Item>
-                                                <Image avatar src='Avatar(1).png' />
+                                                <Image alt="pic" avatar src='Avatar(1).png' />
                                                 <List.Content>
                                                     <List.Header>Lana Steiner</List.Header>
                                                     <List.Description>
@@ -181,7 +181,7 @@ export default function Contents() {
                                     <td className={styles.hide}>
                                         <List>
                                             <List.Item>
-                                                <Image avatar src='Avatar(1).png' />
+                                                <Image alt="pic" avatar src='Avatar(1).png' />
                                                 <List.Content>
                                                     <List.Header>Demi Wikinson</List.Header>
                                                     <List.Description>
@@ -203,7 +203,7 @@ export default function Contents() {
                                     <td className={styles.hide}>
                                         <List>
                                             <List.Item>
-                                                <Image avatar src='Avatar(1).png' />
+                                                <Image alt="pic" avatar src='Avatar(1).png' />
                                                 <List.Content>
                                                     <List.Header >Candice Wu</List.Header>
                                                     <List.Description>
@@ -225,7 +225,7 @@ export default function Contents() {
                                     <td className={styles.hide}>
                                         <List>
                                             <List.Item>
-                                                <Image avatar src='Avatar.png' />
+                                                <Image alt="pic" avatar src='Avatar.png' />
                                                 <List.Content>
                                                     <List.Header >Natali Craig</List.Header>
                                                     <List.Description>
@@ -240,8 +240,8 @@ export default function Contents() {
                                 </tr>
                             </tbody>
                         </table>
-                        <button className={styles.previous}><img style={{width:"10px"}}  src="navicons/prev.png"></img> Previous</button>
-                        <button className={styles.next}>Next <img style={{width:"10px"}} src="navicons/next.png"></img></button>
+                        <button className={styles.previous}><Img alt="pic" width={20} height={10} style={{width:"10px"}}  src="/navicons/prev.png"/> Previous</button>
+                        <button className={styles.next}>Next <Img alt="pic" width={20} height={10} style={{width:"10px"}} src="/navicons/next.png"/></button>
                     </div>
                 </div>
             </div>

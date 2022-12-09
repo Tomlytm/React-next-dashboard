@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'semantic-ui-css/semantic.min.css'
 import { CountryDropdown } from 'react-country-region-selector';
 import React, { Component,  } from 'react'
+import Img from 'next/image'
 
 export default class Details extends Component {
     state = { country: '', region: '' };
@@ -21,7 +22,7 @@ export default class Details extends Component {
                 </div>
                 <div className={styles.user}>
                     <div className={styles.circle}>
-                        <img src='profilephoto.png'></img>
+                        <Img alt="pic" width={200} height={200} src='/profilephoto.png'/>
                     </div>
                     <div className={styles.userinfo}>
                         <h2>
@@ -65,9 +66,9 @@ export default class Details extends Component {
                                             <div className='row'>
                                                 <div className='col-sm-2'>
 
-                                                    <img style={{ width: "60px", borderRadius: "100%", height: "55px" }} src="pp.png"></img></div><div className='col-sm-10'>
+                                                    <Img alt="pic" width={20} height={20} style={{ width: "60px", borderRadius: "100%", height: "55px" }} src="/pp.png"/></div><div className='col-sm-10'>
                                                     <div className={styles.dragdrop}>
-                                                        <img src='navicons/import.png'></img>
+                                                        <Img alt="pic" width={20} height={20} src='/navicons/import.png'/>
                                                         <p> <span style={{ color: "#6941C6" }} >Click to upload</span> or drag and drop </p>
                                                         <p>SVG, PNG, JPG or GIF (max. 800x400px)</p>
                                                     </div>
@@ -98,7 +99,7 @@ export default class Details extends Component {
                                         <br />
                                         <div className='row mb-3'>
                                             <h4>Available for projects</h4>
-                                            <p style={{ marginTop: "-6px" }}>I'm open and Available for freelance work</p>
+                                            <p style={{ marginTop: "-6px" }}> Open and Available for freelance work</p>
                                         </div>
                                         <div className='row mb-3'>
                                             <label for="basic-url" className="form-label">Username</label>

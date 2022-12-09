@@ -43,6 +43,14 @@
 .check {
   display: none;
 }
+.down {
+  position: absolute;
+  bottom: 15px;
+}
+.tabdown {
+  position: absolute;
+  bottom: 15px;
+}
 .wrapper>ul>li>img:hover{
   color: darkgoldenrod;
   font-size: 22px;

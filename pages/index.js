@@ -6,7 +6,7 @@ import Content from './components/Contents'
 import Details from './components/Details'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'semantic-ui-css/semantic.min.css'
-
+import Img from 'next/image'
 export default function Home() {
   return (
     <div className="container">
@@ -22,11 +22,17 @@ export default function Home() {
             <div className={styles.wrapper2}>
               <h5>Dashboard</h5>
               <Tab className={styles.tab1}>
-                <h6> <img style={{marginRight: "7px"}} src='navicons/overview.png' />  Overview</h6>
+                <h6> <Img alt="pic" width={20} height={20} style={{marginRight: "7px"}} src='/navicons/overview.png' />  Overview</h6>
               </Tab>
               <Tab className={styles.tab1}>
-              <h6> <img style={{marginRight: "7px"}} src='navicons/mydetails.png' />  My Details</h6>
+              <h6> <Img alt="pic" width={20} height={20} style={{marginRight: "7px"}} src='/navicons/mydetails.png' />  My Details</h6>
               </Tab>
+              <div className={styles.tabdown}>
+                <p style={{fontSize: ".8rem"}}>Tomilayo Jesse</p>
+                <p style={{fontSize: ".8rem", fontWeight:"300", marginTop: "-1rem"}}>
+                  tomilayojesse@gmail.com
+                </p>
+              </div>
             </div>
           </div >
         </TabList>
